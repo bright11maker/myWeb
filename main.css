@@ -1,0 +1,221 @@
+#wrapper{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+#subheader{
+    width: 100%;
+    height: 30px;
+    background-color: #3d3fa5;
+    color: #ffffff;
+    margin-top: -15px;
+}
+#subheader p{
+    float: left;
+    margin-top: 4px;
+}
+#subheader a{
+    float: right;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/*logo styling*/
+#main-header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(135, 195, 222);
+    float: left;
+    margin-top: -15px;
+}
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    float: left;
+}
+#ist{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: cursive;
+
+}
+#list{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+/*searching area style*/
+#search{
+    width: 650px;
+    float: left;
+    padding: 20px;
+    margin-left: 50px;
+}
+ .search-area{
+    width: 650px;
+    height: 50px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 15px;
+}
+.search-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background: red;
+    margin-left: -100.5px;
+
+}
+/*user menu styling*/
+#user-menu{
+   width:300px;
+   float: right;
+   margin-top: 20px;
+   
+}
+/*list styling*/
+#user-menu li{
+    float: left;
+    width: 140px;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    border-left: 1px solid black;
+    
+}
+#user-menu li:hover{
+    font-size: 30px;
+    transition: all .5s ease;
+}
+#user-menu li a{
+    color: white;
+    text-decoration: none;
+
+}
+/*nav bar style*/
+#navigation{
+    width: 100%;
+    height: 40px;
+    background: rgb(135, 195, 222);
+    float: left;
+    box-shadow: 10px 14px 50px 2px rgb(135, 195, 222);
+}
+#mainav{
+    width: 1280px;
+    margin: 0 auto;
+}
+nav a{
+    margin-left: 35px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #000;
+    transition: all .7s ease;
+}
+
+/*Top Deals  heading style*/
+#heading-block{
+    width: 100%;
+    height: auto;
+    float: left;
+    
+    font-size: 22px;
+
+}
+#heading-block h2{
+    line-height: 35px;
+    border-left: 20px solid black;
+    padding-left: 10px;
+}
+/*Top Deals boxes*/
+.catbox{
+    width: 235px;
+    height:235px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 15px 30px 0px ;
+}
+.catbox span{
+    width:100%;
+    height: 35px;
+    line-height: 35px;
+    background:rgba(0,0,0,0.6);
+    color: white;
+    display: block;
+    bottom: 30px;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    
+}
+.catbox:hover span{
+    color:  rgb(135, 195, 222);
+}
+.catbox img{
+    max-width: 100%;
+    transition: all .5s ease; 
+}
+.catbox:hover img{
+    transform: scale(1.3,1.3);
+    transition: all .5s ease;
+}
+/*Product style*/
+.prod-box{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0px 18px 30px 0px;
+    position: relative;
+    float: left;
+    
+}
+.prod-box>img{
+    max-width: 100%;
+}
+.prod-trans{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    opacity: 0;
+    transition:all .5s ease;
+}
+.prod-box:hover .prod-trans{
+    opacity: 1;
+    transition: all .5s ease;
+}
+.prod-feature{
+    text-align: center;
+    margin-top: -150px;
+    transition: all .5s ease;
+
+}
+.prod-feature p{
+    color:  rgb(135, 195, 222);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.prod-box:hover .prod-feature{
+    margin-top: 150px;
+    transition: all .5s ease;
+
+}
